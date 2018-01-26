@@ -10,7 +10,7 @@ def main():
 
 	for episode in range(100):
 		done = False
-		obs = env.reset()
+		obs = env.reset() # What is this for?
 
 		while not done: # Start with while True
 			env.render()
